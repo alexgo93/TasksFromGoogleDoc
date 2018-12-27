@@ -1,4 +1,4 @@
-function isPowerOfThree(int $value) : string
+function isPowerOfThree(int $value) : bool
 {
 
     while($value >= 1) {
@@ -9,11 +9,11 @@ function isPowerOfThree(int $value) : string
         
         } elseif($value == 1) {
 
-            return 'true';
+            return true;
 
         } else {
 
-            return 'false';
+            return false;
 
         }
 

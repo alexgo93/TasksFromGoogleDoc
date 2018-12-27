@@ -1,4 +1,4 @@
-function isPerfect(int $n) : string
+function isPerfect(int $n) : bool
 {   
 
     $arr = [];
@@ -13,15 +13,15 @@ function isPerfect(int $n) : string
 
     }
 
-    //echo $n == array_sum($arr) ? 'true' : 'false'
+    //echo $n == array_sum($arr) ? true : false
 
     if($n == array_sum($arr)) {
         
-        return 'true';
+        return true;
 
     } else {
 
-        return 'false';
+        return false;
 
     }
 
